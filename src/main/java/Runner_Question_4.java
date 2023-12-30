@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class Runner_Question_4 {
     public static void main(String[] args) {
+        /**
+         * 1 den başlayarak sırayla sayıları toplayalım toplamımız
+         * 50den buyuk olana kadar programımız çalışşın program sonunda
+         * toplamı ve programın kaç kere çalıştıgını yazdıralım.
+         */
         System.out.print("Lütfen bir sayi giriniz : ");
         int total = 0;
         int counter = 1;

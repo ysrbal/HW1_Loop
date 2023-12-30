@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Runner_Question_5 {
     public static void main(String[] args) {
+        /**
+         * Girilen sayının basamakları toplamını ve kaç basamaklı oldugunu ekrana yazdıralım do while ile yapalım
+         */
         int total = 0;
         int counter = 0;
         System.out.print("Lütfen bir sayi giriniz : ");
