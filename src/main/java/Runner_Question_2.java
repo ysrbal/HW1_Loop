@@ -6,8 +6,16 @@ public class Runner_Question_2 {
         System.out.print("Lütfen bir sayi giriniz : ");
         int total = 0;
         int s1 = new Scanner(System.in).nextInt();
-        for (int i = 2; i <= s1; i+=2) {
+        for (int i = 2; i <= s1; i += 2) {
             total += i;
+        }
+        System.out.println("Toplam ........ : " + total);
+
+// Tenary
+        total = 0;
+        for (int i = 1; i <= s1; i++) {
+            int cift = i % 2 == 0 ? i : 0;
+            total += cift;
         }
         System.out.println("Toplam ........ : " + total);
     }
